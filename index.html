@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lootix - Open Cases, Win Skins</title>
+  <style>
+    body { margin:0; background:#0f0f1b; color:white; font-family:sans-serif; }
+    header { padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #333; }
+    .logo { display:flex; align-items:center; gap:10px; }
+    .logo h1 { background:linear-gradient(to right, #b967ff, #ffd700); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-size:1.5rem; font-weight:bold; }
+    .balance { background:#ffd700; color:#000; padding:4px 12px; border-radius:20px; font-weight:bold; }
+    .btn { background:#b967ff; color:white; border:none; padding:6px 16px; border-radius:6px; font-weight:bold; cursor:pointer; }
+    .container { padding:2rem; max-width:1200px; margin:0 auto; }
+    .games { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:1.5rem; margin:2rem 0; }
+    .game-card { background:#1a1a2e; padding:1.5rem; border-radius:12px; text-align:center; border:1px solid #333; cursor:pointer; }
+    .game-card:hover { transform:scale(1.03); transition:0.2s; }
+    .wins { background:#1a1a2e; padding:1.5rem; border-radius:12px; border:1px solid #333; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div style="width:32px;height:32px;background:linear-gradient(135deg,#b967ff,#6a11cb);border-radius:50%;display:flex;justify-content:center;align-items:center;font-weight:bold;color:white">L</div>
+      <h1>lootix.com</h1>
+    </div>
+    <div>
+      <span class="balance">$247.50</span>
+      <button class="btn">Deposit</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1 style="font-size:2.5rem;font-weight:bold;margin-bottom:1rem">Open Cases. Win Skins. Cash Out.</h1>
+    <p style="color:#aaa;margin-bottom:2rem">The legal way to play with Steam skins & crypto.</p>
+
+    <div class="games">
+      <div class="game-card"><div style="font-size:1.3rem;font-weight:bold;margin-bottom:0.5rem">Cases</div><div style="color:#b967ff;font-size:0.9rem">Play now</div></div>
+      <div class="game-card"><div style="font-size:1.3rem;font-weight:bold;margin-bottom:0.5rem">Case Battle</div><div style="color:#b967ff;font-size:0.9rem">Play now</div></div>
+      <div class="game-card"><div style="font-size:1.3rem;font-weight:bold;margin-bottom:0.5rem">Roulette</div><div style="color:#b967ff;font-size:0.9rem">Play now</div></div>
+    </div>
+
+    <div class="wins">
+      <h2 style="font-size:1.4rem;font-weight:bold;margin-bottom:1rem;color:#ffd700">🔥 Recent Wins</h2>
+      <div style="display:flex;justify-content:space-between;color:#ccc;padding:0.5rem 0"><span>User123</span><span>★ Karambit | Fade ($1,240)</span></div>
+      <div style="display:flex;justify-content:space-between;color:#ccc;padding:0.5rem 0"><span>ProGamer</span><span>AK-47 | Fire Serpent ($890)</span></div>
+    </div>
+  </div>
+</body>
+</html>
